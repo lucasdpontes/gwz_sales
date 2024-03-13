@@ -15,3 +15,5 @@ date_date
 ,ROUND(SUM(purchase_price),2) AS purchase_cost
 FROM sales_price
 GROUP BY date_date
+
+--add round function
